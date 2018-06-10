@@ -16,7 +16,7 @@
 * `func Decrypt.rot13(str: String) -> String`
 * `func Decrypt.base64(str: String) -> String`
 
-#### MORSE FORMAT:
+#### Morse format:
 * Every letter is split with a " "
 * Every word is split with a " / "
 *If an unknown character is used, it will return a "?" in place of the character
