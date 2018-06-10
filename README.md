@@ -1,6 +1,6 @@
 # SwiftCiphers
 ## Commands
-__Functions:__
+### Functions:
 * ALL FUNCTIONS RETURN STRINGS
 * Decrypt.caesarCipher RETURNS A STRING WITH ALL POSSIBLE VALUES OF THE CAESAR CIPHER
 
@@ -16,6 +16,12 @@ __Functions:__
 * `func Decrypt.rot13(str: String) -> String`
 * `func Decrypt.base64(str: String) -> String`
 
+#### MORSE FORMAT:
+* Every letter is split with a " "
+* Every word is split with a " / "
+*If an unknown character is used, it will return a "?" in place of the character
+
+
 ## Example
 ```
 let str: String = Encrypt.ROT1(str: "Hello, World!")
@@ -27,9 +33,3 @@ print("Decrypted: " + Decrypt.ROT1(str: s!))
 Encrypted: Ifmmp, xpsme!
 Decyrpted: Hello, world!
 ```
-
-
-### MORSE FORMAT:
-* Every letter is split with a " "
-* Every word is split with a " / "
-*If an unknown character is used, it will return a "?" in place of the character
