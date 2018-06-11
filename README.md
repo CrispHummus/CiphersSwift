@@ -24,7 +24,7 @@
 
 ## Example
 ```
-let str: String = Encrypt.ROT1(str: "Hello, World!")
+let str: String = Encrypt.rot1(str: "Hello, World!")
 print("Ecrypted: " + str)
 print("Decrypted: " + Decrypt.ROT1(str: s!))
 ```
